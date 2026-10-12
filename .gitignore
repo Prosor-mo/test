@@ -1,0 +1,76 @@
+# ---------- 编译产物 ----------
+*.o
+*.obj
+*.ko
+*.elf
+*.lo
+*.slo
+
+# ---------- 库文件 ----------
+*.a
+*.lib
+*.la
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# ---------- 可执行文件 ----------
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# ---------- 调试信息 ----------
+*.dSYM/
+*.pdb
+*.idb
+*.ilk
+*.su
+*.map
+*.exp
+
+# ---------- 依赖 / 预编译头 ----------
+*.d
+*.gch
+*.pch
+
+# ---------- 构建目录 ----------
+build/
+out/
+bin/
+obj/
+Debug/
+Release/
+cmake-build-*/
+
+# ---------- CMake ----------
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+install_manifest.txt
+
+# ---------- 内核模块（写驱动才需要）----------
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+
+# ---------- IDE / 编辑器 ----------
+.vscode/
+.vs/
+.idea/
+*.user
+*.suo
+*.swp
+*~
+
+# ---------- 其他 ----------
+core
+vgcore.*
+*.stackdump
+a.out
